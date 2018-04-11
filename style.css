@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.front{
+color:#332323;
+width:100%;
+margin-bottom: 30px;
+height:20px;
+left:50%;
+}
+
+.container{
+margin: 0 auto;
+position: absolute;
+top :1%;
+height:50px;
+margin-top:150px;
+left:40%;
+display:block;
+width:270px;
+}
+
+#Rock{
+	margin-left: 5px;
+	height: 45px;
+	max-width: 50%;
+	width:30%;
+	background: url("img/rock.png");
+	background-size: 80px 80px;
+	height: 80px;  
+    width: 80px;
+    border-style: none;    
+}
+#Paper{
+
+	height: 45px;
+	width:30%;
+	background: url("img/paper.png");
+	background-size: 80px 80px;
+	height: 80px;  
+    width: 80px;
+    border-style: none;  
+	}
+
+#Scissors{
+
+	height: 45px;
+	width:30%;
+	background: url("img/scissors.png");
+	background-size: 80px 80px;
+	height: 80px;  
+    width: 80px;
+    border-style:none;
+}
+#result{
+
+	color:'#FFFFFF';
+	}
+
+#count{
+	background-color: #3D2C2C;
+	color:white;
+	border-top: 20px;
+	border: 1px solid #ccc;
+	}
+#total{
+	color:rgb(51, 29, 29);
+}
+
+#Paper:hover{
+  background-color:;  
+  color:black;
+  border: 1px solid #161D0E;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+ }
+
+#Rock:hover{
+  background-color:#554C4C;  
+  color:black;
+  border: 1px solid #161D0E;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+ }
+
+ #Scissors:hover{
+  background-color:#C8BFBF;  
+  color:black;
+  border: 1px solid #161D0E;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+ 
+ }
+ #tab1 { 
+       display: block-inline;
+       margin-left:  180px; 
+}
+#tab2{
+	margin-left: 205px;
+	display:block-inline;
+
+
+}
